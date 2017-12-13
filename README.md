@@ -1,5 +1,3 @@
-# 🚫 This project is no longer maintained.
-
 # Kassandra
 
 A pure Swift client library for [Apache Cassandra (3.4+)](http://cassandra.apache.org/) and [ScyllaDB](http://www.scylladb.com/) using Cassandra's binary protocol, CQL 3.2.
@@ -15,7 +13,7 @@ import PackageDescription
 
 let package = Package(
     	dependencies: [
-		.Package(url: "https://github.com/IBM-Swift/Kassandra.git", majorVersion: 1)
+		.Package(url: "https://github.com/conqueror/Kassandra.git", majorVersion: 1)
     	]
     )
 ```
